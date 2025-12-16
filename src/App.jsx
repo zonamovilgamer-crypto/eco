@@ -25,7 +25,7 @@ const Navbar = () => {
             <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', height: '90px' }}>
                 <Link to="/" style={{ fontSize: '1.6rem', fontFamily: 'var(--font-heading)', color: 'var(--color-primary)', display: 'flex', alignItems: 'center', gap: '12px', fontWeight: '800' }}>
                     <Sprout size={36} fill="var(--color-secondary)" strokeWidth={1.5} />
-                    HuertaOrgánica.ar
+                    Tu Huertita
                 </Link>
 
                 <nav className="desktop-nav" style={{ display: 'flex', gap: '1rem' }}>
@@ -66,7 +66,7 @@ const Hero = () => (
                     🌿 ARGENTINA CULTIVA 2025
                 </div>
                 <h1 style={{ marginBottom: '1.5rem', lineHeight: '1.1' }}>
-                    Tu Huerta Orgánica en Argentina Empieza Acá.
+                    Tu Huertita en Argentina Empieza Acá.
                 </h1>
                 <p style={{ fontSize: '1.3rem', marginBottom: '2.5rem', maxWidth: '520px' }}>
                     Guías simples, calendario local y kits listos para sembrar. Conectá con la naturaleza sin salir de la ciudad.
@@ -272,7 +272,7 @@ const Footer = () => (
         <div className="container">
             <div className="grid grid-2" style={{ gap: '4rem' }}>
                 <div>
-                    <h3 style={{ color: 'white', marginBottom: '1.5rem', fontSize: '2rem' }}>HuertaOrgánica.ar</h3>
+                    <h3 style={{ color: 'white', marginBottom: '1.5rem', fontSize: '2rem' }}>Tu Huertita</h3>
                     <p style={{ maxWidth: '400px', opacity: 0.8, color: '#e6f0eb' }}>
                         Promoviendo la soberanía alimentaria y la biodiversidad en los hogares argentinos. Sumate a la comunidad verde más grande del país.
                     </p>
@@ -304,7 +304,7 @@ const Footer = () => (
                 </div>
             </div>
             <div style={{ marginTop: '5rem', paddingTop: '2rem', borderTop: '1px solid rgba(255,255,255,0.1)', fontSize: '0.9rem', opacity: 0.6, textAlign: 'center' }}>
-                © 2025 Huerta Orgánica Argentina. Hecho con 🌿 en Buenos Aires.
+                © 2025 Tu Huertita. Hecho con 🌿 en Buenos Aires.
             </div>
         </div>
     </footer>
