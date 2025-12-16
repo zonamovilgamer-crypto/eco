@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Sprout, CloudSun, Droplets, ArrowRight, Menu, X, Calculator } from 'lucide-react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { HelmetProvider } from 'react-helmet-async';
 import sitemapData from '../sitemap.json';
 import RecipesPage from './pages/Recipes';
 import CalendarPage from './pages/Calendar';
@@ -418,21 +419,23 @@ const Footer = () => (
 
 function App() {
     return (
-        <Router>
-            <div className="blob-bg">
-                <div className="blob-1"></div>
-                <div className="blob-2"></div>
-            </div>
-            <Navbar />
-            <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/recetas" element={<RecipesPage />} />
-                <Route path="/calendario" element={<CalendarPage />} />
-                <Route path="/calculadora" element={<SubstrateCalculator />} />
-                <Route path="/blog/:slug" element={<BlogPost />} />
-            </Routes>
-            <Footer />
-        </Router>
+        <HelmetProvider>
+            <Router>
+                <div className="blob-bg">
+                    <div className="blob-1"></div>
+                    <div className="blob-2"></div>
+                </div>
+                <Navbar />
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/recetas" element={<RecipesPage />} />
+                    <Route path="/calendario" element={<CalendarPage />} />
+                    <Route path="/calculadora" element={<SubstrateCalculator />} />
+                    <Route path="/blog/:slug" element={<BlogPost />} />
+                </Routes>
+                <Footer />
+            </Router>
+        </HelmetProvider>
     )
 }
 

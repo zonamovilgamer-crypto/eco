@@ -3,6 +3,7 @@ import ReactMarkdown from 'react-markdown';
 import rehypeRaw from 'rehype-raw';
 import { ArrowLeft, Clock, Tag } from 'lucide-react';
 import { useParams, Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 
 const BlogPost = () => {
     const { slug } = useParams();
@@ -93,6 +94,57 @@ const BlogPost = () => {
 
     return (
         <section className="section-padding" style={{ background: '#fff', minHeight: '100vh', paddingBottom: '6rem' }}>
+            {/* SEO: Meta tags dinámicos por post */}
+            <Helmet>
+                <title>{meta.seo_title || meta.title || 'Tu Huertita - Blog'}</title>
+                <meta name="description" content={meta.description || 'Guías prácticas de huerta orgánica'} />
+                <meta name="keywords" content={meta.keywords || 'huerta organica, argentina'} />
+
+                {/* Canonical URL */}
+                <link rel="canonical" href={`https://tuhuertita.ar/blog/${slug}`} />
+
+                {/* Open Graph */}
+                <meta property="og:title" content={meta.title || 'Tu Huertita'} />
+                <meta property="og:description" content={meta.description || ''} />
+                <meta property="og:type" content="article" />
+                <meta property="og:url" content={`https://tuhuertita.ar/blog/${slug}`} />
+
+                {/* Twitter Card */}
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:title" content={meta.title || 'Tu Huertita'} />
+                <meta name="twitter:description" content={meta.description || ''} />
+
+                {/* Schema.org Article */}
+                <script type="application/ld+json">
+                    {JSON.stringify({
+                        "@context": "https://schema.org",
+                        "@type": "Article",
+                        "headline": meta.title || '',
+                        "description": meta.description || '',
+                        "author": {
+                            "@type": "Organization",
+                            "name": meta.author || "Tu Huertita"
+                        },
+                        "publisher": {
+                            "@type": "Organization",
+                            "name": "Tu Huertita",
+                            "logo": {
+                                "@type": "ImageObject",
+                                "url": "https://tuhuertita.ar/vite.svg"
+                            }
+                        },
+                        "datePublished": meta.date || "2025-01-15",
+                        "dateModified": meta.date || "2025-01-15",
+                        "mainEntityOfPage": {
+                            "@type": "WebPage",
+                            "@id": `https://tuhuertita.ar/blog/${slug}`
+                        },
+                        "articleSection": meta.cat || "Huerta Orgánica",
+                        "keywords": meta.keywords || "huerta organica"
+                    })}
+                </script>
+            </Helmet>
+
             <div className="container" style={{ maxWidth: '800px' }}>
                 <Link to="/" style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', marginBottom: '30px', color: 'var(--color-primary)' }}>
                     <ArrowLeft size={20} /> Volver al Blog
