@@ -1,0 +1,157 @@
+{
+    "recetas_sustratos": [
+        {
+            "nombre": "Mezcla Liviana para Semilleros",
+            "uso": "Germinación y plantines",
+            "proporciones": {
+                "partes": "1:1:1",
+                "porcentaje": {
+                    "turba_o_coco": "33%",
+                    "perlita": "33%",
+                    "humus_lombriz": "33%"
+                }
+            },
+            "ingredientes_para_10L": [
+                {
+                    "item": "Fibra de Coco o Turba",
+                    "cantidad": 3.3,
+                    "unidad": "litros"
+                },
+                {
+                    "item": "Perlita agrícola",
+                    "cantidad": 3.3,
+                    "unidad": "litros"
+                },
+                {
+                    "item": "Humus de Lombriz",
+                    "cantidad": 3.3,
+                    "unidad": "litros"
+                }
+            ],
+            "preparacion": "Mezclar los tres componentes en seco hasta homogeneizar. Humedecer ligeramente antes de llenar los alveolos. Debe quedar esponjoso.",
+            "costo_estimado_ars": 850,
+            "notas": "Ideal para hortalizas delicadas. No requiere fertilización extra en la primera etapa."
+        },
+        {
+            "nombre": "Sustrato Universal para Macetas",
+            "uso": "Cultivo en contenedores definitivos",
+            "proporciones": {
+                "partes": "2:1:1",
+                "porcentaje": {
+                    "tierra_negra": "50%",
+                    "compost_maduro": "25%",
+                    "perlita": "25%"
+                }
+            },
+            "ingredientes_para_10L": [
+                {
+                    "item": "Tierra Negra fértil",
+                    "cantidad": 5,
+                    "unidad": "litros"
+                },
+                {
+                    "item": "Compost maduro",
+                    "cantidad": 2.5,
+                    "unidad": "litros"
+                },
+                {
+                    "item": "Perlita",
+                    "cantidad": 2.5,
+                    "unidad": "litros"
+                }
+            ],
+            "preparacion": "Tamizar la tierra si tiene cascotes. Mezclar con el compost y añadir la perlita al final para dar aireación.",
+            "costo_estimado_ars": 500,
+            "notas": "Retiene humedad pero drena bien. Agregar un puñado de humus si es para tomates o morrones."
+        },
+        {
+            "nombre": "Mejora de Suelo Arcilloso",
+            "uso": "Canteros en tierra directa",
+            "proporciones": {
+                "partes": "Variable",
+                "porcentaje": {
+                    "suelo_existente": "50%",
+                    "arena_rio": "20%",
+                    "materia_organica": "30%"
+                }
+            },
+            "ingredientes_para_10L": [
+                {
+                    "item": "Suelo del lugar",
+                    "cantidad": 5,
+                    "unidad": "litros"
+                },
+                {
+                    "item": "Arena de río gruesa",
+                    "cantidad": 2,
+                    "unidad": "litros"
+                },
+                {
+                    "item": "Estiércol compostado/Pasto seco",
+                    "cantidad": 3,
+                    "unidad": "litros"
+                }
+            ],
+            "preparacion": "Puntear el suelo a 30cm. Incorporar la arena y la materia orgánica y mezclar con la tierra existente.",
+            "costo_estimado_ars": 200,
+            "notas": "Mejora el drenaje en suelos pesados de Buenos Aires."
+        }
+    ],
+    "recetas_remedios": [
+        {
+            "nombre": "Apichi (Insecticida de Ajo, Pimienta y Chile)",
+            "tipo": "Repelente Potente",
+            "ingredientes": [
+                "500g de Ajo",
+                "250g de Chile picante (Ají)",
+                "250g de Pimienta en grano",
+                "500ml de Alcohol etílico"
+            ],
+            "preparacion": "Moler todo y dejar macerar en alcohol por 7 días. Diluir para usar.",
+            "dosis": "5ml (una tapita) por litro de agua.",
+            "aplicacion": "Pulverizar cada 15 días como preventivo.",
+            "seguridad": "Usar guantes y gafas (irrita ojos). No aplicar en floración. Evitar horas de sol fuerte.",
+            "compatibilidad": "Tóxico para abejas por contacto directo, aplicar al atardecer."
+        },
+        {
+            "nombre": "Infusión de Ajo Básico",
+            "tipo": "Repelente Suave",
+            "ingredientes": [
+                "5 dientes de ajo",
+                "1 litro de agua"
+            ],
+            "preparacion": "Machacar los ajos, dejar reposar en agua 24hs o hervir 20 min. Colar antes de usar.",
+            "dosis": "Usar puro o diluido al 50%.",
+            "aplicacion": "Rociar sobre hojas afectadas por pulgón, 3 días seguidos.",
+            "seguridad": "Seguro. No aplicar bajo sol directo.",
+            "compatibilidad": "Poco efecto sobre benéficos si se aplica seco."
+        },
+        {
+            "nombre": "Jabón Potásico Casero (con Jabón Blanco)",
+            "tipo": "Insecticida de Contacto",
+            "ingredientes": [
+                "20g de Jabón blanco neutro (tipo pan)",
+                "1 litro de agua caliente"
+            ],
+            "preparacion": "Rallar el jabón y disolver en agua caliente. Dejar enfriar.",
+            "dosis": "No necesita dilución extra si se hizo al 2%.",
+            "aplicacion": "Mojar bien al insecto (pulgón, cochinilla, mosca blanca).",
+            "seguridad": "Muy seguro. Evitar ojos.",
+            "compatibilidad": "No tiene efecto residual, solo mata lo que toca. Seguro para abejas una vez seco."
+        },
+        {
+            "nombre": "Fungicida de Leche",
+            "tipo": "Fungicida preventivo",
+            "ingredientes": [
+                "200ml de leche descremada",
+                "800ml de agua",
+                "20g de Bicarbonato de sodio (opcional)"
+            ],
+            "preparacion": "Mezclar la leche con el agua.",
+            "dosis": "1 parte de mezcla final.",
+            "aplicacion": "Pulverizar hojas cada 7-10 días para prevenir oidio y mildiu.",
+            "seguridad": "Totalmente inocuo.",
+            "compatibilidad": "Seguro."
+        }
+    ]
+}

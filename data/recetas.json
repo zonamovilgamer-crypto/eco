@@ -1,0 +1,333 @@
+{
+    "recetas_sustratos": [
+        {
+            "nombre": "Mezcla Liviana para Semilleros",
+            "uso": "Germinación y plantines",
+            "proporciones": {
+                "partes": "1:1:1",
+                "porcentaje": {
+                    "turba_o_coco": "33%",
+                    "perlita": "33%",
+                    "humus_lombriz": "33%"
+                }
+            },
+            "ingredientes_para_10L": [
+                {
+                    "item": "Fibra de Coco o Turba",
+                    "cantidad": 3.3,
+                    "unidad": "litros"
+                },
+                {
+                    "item": "Perlita agrícola",
+                    "cantidad": 3.3,
+                    "unidad": "litros"
+                },
+                {
+                    "item": "Humus de Lombriz",
+                    "cantidad": 3.3,
+                    "unidad": "litros"
+                }
+            ],
+            "preparacion": "Mezclar los tres componentes en seco hasta homogeneizar. Humedecer ligeramente antes de llenar los alveolos. Debe quedar esponjoso.",
+            "costo_estimado_ars": 850,
+            "notas": "Ideal para hortalizas delicadas. No requiere fertilización extra en la primera etapa.",
+            "video_id": "mrZCo1XaPfM"
+        },
+        {
+            "nombre": "Sustrato Universal para Macetas",
+            "uso": "Cultivo en contenedores definitivos",
+            "proporciones": {
+                "partes": "2:1:1",
+                "porcentaje": {
+                    "tierra_negra": "50%",
+                    "compost_maduro": "25%",
+                    "perlita": "25%"
+                }
+            },
+            "ingredientes_para_10L": [
+                {
+                    "item": "Tierra Negra fértil",
+                    "cantidad": 5,
+                    "unidad": "litros"
+                },
+                {
+                    "item": "Compost maduro",
+                    "cantidad": 2.5,
+                    "unidad": "litros"
+                },
+                {
+                    "item": "Perlita",
+                    "cantidad": 2.5,
+                    "unidad": "litros"
+                }
+            ],
+            "preparacion": "Tamizar la tierra si tiene cascotes. Mezclar con el compost y añadir la perlita al final para dar aireación.",
+            "costo_estimado_ars": 500,
+            "notas": "Retiene humedad pero drena bien. Agregar un puñado de humus si es para tomates o morrones.",
+            "video_id": "OSdqNMpnHgD"
+        },
+        {
+            "nombre": "Recuperación de Suelo Seco/Arcilloso",
+            "uso": "Canteros en tierra directa o recuperación de macetas viejas",
+            "proporciones": {
+                "partes": "Variable",
+                "porcentaje": {
+                    "suelo_existente": "50%",
+                    "arena_rio": "20%",
+                    "materia_organica": "30%"
+                }
+            },
+            "ingredientes_para_10L": [
+                {
+                    "item": "Suelo del lugar",
+                    "cantidad": 5,
+                    "unidad": "litros"
+                },
+                {
+                    "item": "Arena de río gruesa",
+                    "cantidad": 2,
+                    "unidad": "litros"
+                },
+                {
+                    "item": "Bokashi o Compost",
+                    "cantidad": 3,
+                    "unidad": "litros"
+                }
+            ],
+            "preparacion": "Puntear el suelo a 30cm sin invertir las capas. Incorporar arena y materia orgánica. Cubrir SIEMPRE con mulching (paja/hojas).",
+            "costo_estimado_ars": 200,
+            "notas": "La clave es el mulching para retener la poca humedad y activar la microbiología.",
+            "video_id": "OSdqNMpnHgD",
+            "insumos_ml": [
+                {
+                    "item": "Arena de río 25kg",
+                    "price_avg": 1500,
+                    "link_search": "https://listado.mercadolibre.com.ar/arena-rio-25kg"
+                },
+                {
+                    "item": "Estiércol compostado 20L",
+                    "price_avg": 3000,
+                    "link_search": "https://listado.mercadolibre.com.ar/estiercol-compostado-20l"
+                }
+            ]
+        },
+        {
+            "nombre": "Sustrato para Hongos (Gírgolas)",
+            "uso": "Producción casera de hongos comestibles",
+            "proporciones": {
+                "partes": "100%",
+                "porcentaje": {
+                    "paja_trigo": "90%",
+                    "micelio_grano": "10%"
+                }
+            },
+            "ingredientes_para_10L": [
+                {
+                    "item": "Paja de trigo seca",
+                    "cantidad": 1,
+                    "unidad": "fardo peq."
+                },
+                {
+                    "item": "Micelio de Gírgola",
+                    "cantidad": 100,
+                    "unidad": "gramos"
+                },
+                {
+                    "item": "Cal viva (para pasteurizar)",
+                    "cantidad": 50,
+                    "unidad": "gramos"
+                }
+            ],
+            "preparacion": "Pasteurizar la paja en agua con cal (o hervir) por 1-2 horas. Escurrir bien. Mezclar con micelio en bolsas negras agujereadas. Incubar a oscuras 20 días.",
+            "costo_estimado_ars": 4500,
+            "notas": "Requiere higiene extrema. Mantener humedad alta 80-90% una vez que fructifica.",
+            "video_id": "efSEqpRh2NU",
+            "insumos_ml": [
+                {
+                    "item": "Micelio Gírgolas",
+                    "price_avg": 4000,
+                    "link_search": "https://listado.mercadolibre.com.ar/micelio-girgolas"
+                }
+            ]
+        }
+    ],
+    "recetas_fertilizantes": [
+        {
+            "nombre": "Purín de Ortiga (Nitrógeno)",
+            "tipo": "Bioestimulante y Fertilizante Foliar",
+            "ingredientes": [
+                "1kg de Ortiga fresca (sin semillas)",
+                "10 litros de agua (sin cloro)"
+            ],
+            "preparacion": "Poner ortigas en agua, tapar con tela (que respire). Revolver cada día. Esperar 10-15 días hasta que deje de haber burbujas.",
+            "dosis": "Diluir 1 parte de purín en 10 partes de agua para riego.",
+            "aplicacion": "Riego cada 15 días en etapa de crecimiento (hojas). Aporta mucho Nitrógeno.",
+            "seguridad": "Huele muy fuerte (podrido). Usar guantes para recolectar ortiga.",
+            "video_id": "EQO1EFP_r3T"
+        },
+        {
+            "nombre": "Té de Banana (Potasio)",
+            "tipo": "Fertilizante para Floración/Fruto",
+            "ingredientes": [
+                "Cáscaras de 4 bananas",
+                "1 litro de agua"
+            ],
+            "preparacion": "Hervir las cáscaras en agua por 15 minutos. Dejar enfriar y colar.",
+            "dosis": "Diluir 1 parte de té en 2 partes de agua.",
+            "aplicacion": "Riego cuando la planta empieza a sacar flores (tomate, pimiento, berenjena).",
+            "seguridad": "Inocuo. Atrae mosquitas si se deja azúcar, no endulzar.",
+            "video_id": "O2vhqh7JdWI"
+        },
+        {
+            "nombre": "Bocashi (Abono Fermentado)",
+            "tipo": "Mejorador de suelo completo",
+            "ingredientes": [
+                "Tierra, Cascarilla de arroz/afrecho",
+                "Estiércol, Carbón molido",
+                "Melaza/Azúcar, Levadura, Agua"
+            ],
+            "preparacion": "Mezcla por capas tipo lasaña. Humedecer con agua+melaza+levadura. Voltear 2 veces al día por 7 días hasta que baje temperatura.",
+            "dosis": "Un puñado por maceta o incorporar en canteros.",
+            "aplicacion": "Aporta vida microbiana explosiva. Usar 15 días después de preparar.",
+            "seguridad": "Levanta temperatura (50°C+). No usar fresco en raíces.",
+            "video_id": "07qHBtEAGC0"
+        }
+    ],
+    "guias_tecnicas": [
+        {
+            "titulo": "Semilleros Biodegradables",
+            "categoria": "Sustentabilidad",
+            "materiales": [
+                "Rollos de papel higiénico",
+                "Tijera",
+                "Bandeja plástica reciclada"
+            ],
+            "pasos": [
+                "1. Cortar 4 tajos de 2cm en un extremo del rollo.",
+                "2. Doblar las solapas hacia adentro como cerrando una caja, formando el fondo.",
+                "3. Llenar con sutrato liviano y sembrar.",
+                "4. Al trasplantar, enterrar el rollo entero (se degrada y no daña raíces)."
+            ],
+            "video_id": "IkYCdtZO3Gy"
+        },
+        {
+            "titulo": "Uso del Cartón (Lasagna/Mulch)",
+            "categoria": "Manejo de Suelo",
+            "materiales": [
+                "Cajas de cartón corrugado (sin tinta color)",
+                "Agua",
+                "Compost/Pasto"
+            ],
+            "pasos": [
+                "1. Sacar cintas plásticas del cartón.",
+                "2. Mojar bien el suelo y el cartón.",
+                "3. Colocar el cartón sobre el césped o malezas (para ahogarlas).",
+                "4. Cubrir con 10cm de sustrato/compost. Sembrar arriba.",
+                "Beneficio: Evita yuyos, retiene agua, atrae lombrices."
+            ],
+            "video_id": "GfbCMQTC6uH"
+        },
+        {
+            "titulo": "Diagnóstico Rápido: Hojas",
+            "categoria": "Problemas Comunes",
+            "materiales": [
+                "Observación",
+                "Lupa"
+            ],
+            "pasos": [
+                "Hojas Bajas Amarillas: Falta de Nitrógeno (planta mueve N a hojas nuevas). Típicamente exceso de riego o falta de abono.",
+                "Hojas Nuevas Amarillas (Nervios verdes): Clorosis Férrica (Falta hierro o pH muy alto).",
+                "Manchas Polvo Blanco: Oidio (Hongo). Usar Fungicida de Leche/Bicarbonato.",
+                "Hojas enrolladas/pegajosas: Pulgón o Mosca Blanca. Mirar revés de hoja."
+            ],
+            "video_id": "EQO1EFP_r3T"
+        }
+    ],
+    "recetas_remedios": [
+        {
+            "nombre": "Apichi (Insecticida de Ajo, Pimienta y Chile)",
+            "tipo": "Repelente Potente",
+            "ingredientes": [
+                "500g de Ajo",
+                "250g de Chile picante (Ají)",
+                "250g de Pimienta en grano",
+                "500ml de Alcohol etílico"
+            ],
+            "preparacion": "Moler todo y dejar macerar en alcohol por 7 días. Diluir para usar.",
+            "dosis": "5ml (una tapita) por litro de agua.",
+            "aplicacion": "Pulverizar cada 15 días como preventivo.",
+            "seguridad": "Usar guantes y gafas (irrita ojos). No aplicar en floración. Evitar horas de sol fuerte.",
+            "compatibilidad": "Tóxico para abejas por contacto directo, aplicar al atardecer.",
+            "video_id": "gzQB2RvHhOs",
+            "insumos_ml": [
+                {
+                    "item": "Alcohol etílico 1L",
+                    "price_avg": 1500,
+                    "link_search": "https://listado.mercadolibre.com.ar/alcohol-etilico-1l"
+                },
+                {
+                    "item": "Pulverizador 5L",
+                    "price_avg": 12000,
+                    "link_search": "https://listado.mercadolibre.com.ar/pulverizador-presion-previa"
+                }
+            ]
+        },
+        {
+            "nombre": "Infusión de Ajo Básico",
+            "tipo": "Repelente Suave",
+            "ingredientes": [
+                "5 dientes de ajo",
+                "1 litro de agua"
+            ],
+            "preparacion": "Machacar los ajos, dejar reposar en agua 24hs o hervir 20 min. Colar antes de usar.",
+            "dosis": "Usar puro o diluido al 50%.",
+            "aplicacion": "Rociar sobre hojas afectadas por pulgón, 3 días seguidos.",
+            "seguridad": "Seguro. No aplicar bajo sol directo.",
+            "compatibilidad": "Poco efecto sobre benéficos si se aplica seco.",
+            "video_id": "vJQo4KXmGSM",
+            "insumos_ml": [
+                {
+                    "item": "Ajo 1kg",
+                    "price_avg": 1000,
+                    "link_search": "https://listado.mercadolibre.com.ar/ajo-1kg"
+                }
+            ]
+        },
+        {
+            "nombre": "Jabón Potásico Casero",
+            "tipo": "Insecticida de Contacto",
+            "ingredientes": [
+                "20g de Jabón blanco neutro",
+                "1 litro de agua caliente"
+            ],
+            "preparacion": "Rallar el jabón y disolver en agua caliente. Dejar enfriar.",
+            "dosis": "No necesita dilución extra si se hizo al 2%.",
+            "aplicacion": "Mojar bien al insecto (pulgón, cochinilla, mosca blanca).",
+            "seguridad": "Muy seguro. Evitar ojos.",
+            "compatibilidad": "No tiene efecto residual.",
+            "video_id": "z6fkRSUZxFE",
+            "insumos_ml": [
+                {
+                    "item": "Jabón Potásico Líquido",
+                    "price_avg": 4000,
+                    "link_search": "https://listado.mercadolibre.com.ar/jabon-potasico-huerta"
+                }
+            ]
+        },
+        {
+            "nombre": "Fungicida de Leche",
+            "tipo": "Fungicida preventivo",
+            "ingredientes": [
+                "200ml de leche descremada",
+                "800ml de agua",
+                "20g de Bicarbonato de sodio (opcional)"
+            ],
+            "preparacion": "Mezclar la leche con el agua.",
+            "dosis": "1 parte de mezcla final.",
+            "aplicacion": "Pulverizar hojas cada 7-10 días para prevenir oidio y mildiu.",
+            "seguridad": "Totalmente inocuo.",
+            "compatibilidad": "Seguro.",
+            "video_id": "LPjHLBH83aE"
+        }
+    ]
+}

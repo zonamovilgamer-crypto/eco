@@ -1,0 +1,135 @@
+{
+  "sitemap": {
+    "hostname": "https://huertaorganica.ar",
+    "pages": [
+      {
+        "page": "Home",
+        "slug": "/",
+        "seo": {
+          "title": {
+            "generic": "Huerta Orgánica en Casa: Guía Completa para Cultivar",
+            "argentina": "Tu Huerta Orgánica en Argentina: Guía, Calendarios y Kits"
+          },
+          "description": {
+            "generic": "Aprende a cultivar tus propios alimentos en casa. Guías de siembra, abonos orgánicos y control de plagas paso a paso.",
+            "argentina": "Empezá tu huerta en casa en Argentina. Calendario de siembra local, sustratos y envíos de kits a todo el país. ¡Cultivá natural!"
+          },
+          "keywords": ["huerta orgánica argentina", "calendario siembra inta", "cultivar en casa", "kits de semillas"],
+          "headings": ["Tu huerta orgánica empieza acá", "Calendario de siembra por zona", "Kits de cultivo para principiantes"]
+        }
+      },
+      {
+        "page": "Cómo empezar",
+        "slug": "/como-empezar",
+        "seo": {
+          "title": {
+            "generic": "Cómo Empezar una Huerta Orgánica desde Cero - Guía 2025",
+            "argentina": "Cómo hacer una Huerta en Argentina: Paso a Paso para Principiantes"
+          },
+          "description": {
+            "generic": "Guía básica para iniciar tu huerta. Ubicación, herramientas y primeros pasos para cultivar hortalizas con éxito.",
+            "argentina": "Todo lo que necesitás para armar tu primera huerta en el patio o balcón. Consejos adaptados al clima y suelo argentino."
+          },
+          "keywords": ["como hacer una huerta", "huerta en macetas", "herramientas huerta", "cultivo principiantes"],
+          "headings": ["Primeros pasos en la huerta", "Eligiendo el lugar ideal", "Herramientas básicas y económicas"]
+        }
+      },
+      {
+        "page": "Fertilizantes",
+        "slug": "/fertilizantes",
+        "seo": {
+          "title": {
+            "generic": "Fertilizantes Orgánicos Caseros: Recetas y Usos",
+            "argentina": "Fertilizantes y Abonos Orgánicos en Argentina: Guía Práctica"
+          },
+          "description": {
+            "generic": "Mejora tu suelo con abonos naturales. Aprende a hacer compost, té de banana y fertilizantes ecológicos.",
+            "argentina": "Nutrí tu tierra con abonos locales. Compost, lombricompuesto y bioinsumos disponibles en Argentina."
+          },
+          "keywords": ["abono organico", "compost casero", "fertilizante natural", "humus de lombriz"],
+          "headings": ["Tipos de fertilizantes orgánicos", "Cómo hacer compost en casa", "Uso de bioinsumos"]
+        }
+      },
+      {
+        "page": "Sustratos",
+        "slug": "/sustratos",
+        "seo": {
+          "title": {
+            "generic": "Sustratos para Plantas: Mezclas Ideales para Huerta",
+            "argentina": "Mejores Sustratos para Huerta en Argentina: Recetas y Precios"
+          },
+          "description": {
+            "generic": "Descubre el mejor suelo para tus plantas. Mezclas para macetas, semilleros y huerta en tierra.",
+            "argentina": "Prepará la mejor tierra negra, perlita y turba. Mezclas ideales para el clima húmedo o seco de tu provincia."
+          },
+          "keywords": ["tierra preparada", "mezcla sustrato maceta", "perlita y vermiculita", "tierra para huerta"],
+          "headings": ["La importancia del sustrato", "Receta para macetas y balcones", "Mejorando el suelo del jardín"]
+        }
+      },
+      {
+        "page": "Plagas y remedios",
+        "slug": "/plagas-remedios",
+        "seo": {
+          "title": {
+            "generic": "Control de Plagas en Huerta Orgánica: Remedios Caseros",
+            "argentina": "Plagas de Huerta en Argentina y Remedios Ecológicos"
+          },
+          "description": {
+            "generic": "Identifica y combate plagas sin químicos. Insecticidas caseros, trampas y soluciones naturales.",
+            "argentina": "Combatí pulgones, hormigas y caracoles. Remedios caseros seguros y legales para tu huerta familiar."
+          },
+          "keywords": ["insecticida casero", "jabon potasico", "control plagas organico", "hormigas huerta"],
+          "headings": ["Identificación de plagas comunes", "Botiquín de remedios naturales", "Prevención y biodiversidad"]
+        }
+      },
+      {
+        "page": "Calendario de siembra",
+        "slug": "/calendario",
+        "seo": {
+          "title": {
+            "generic": "Calendario de Siembra Anual: Qué Plantar Ahora",
+            "argentina": "Calendario de Siembra Argentina 2025: INTA y ProHuerta"
+          },
+          "description": {
+            "generic": "Consulta qué sembrar mes a mes. Planifica tus cultivos de temporada primavera-verano y otoño-invierno.",
+            "argentina": "Calendario de siembra hemisferio sur. Qué plantar en Buenos Aires, Córdoba y todo el país este mes."
+          },
+          "keywords": ["calendario siembra argentina", "prohuerta siembra", "que plantar en enero", "temporada primavera verano"],
+          "headings": ["Siembra mes a mes", "Especies de Otoño-Invierno", "Especies de Primavera-Verano"]
+        }
+      },
+      {
+        "page": "Calculadoras",
+        "slug": "/calculadoras",
+        "seo": {
+          "title": {
+            "generic": "Calculadoras de Huerta: Sustratos y Siembra",
+            "argentina": "Herramientas Digitales para tu Huerta: Calculá todo"
+          },
+          "description": {
+            "generic": "Calcula cuánto sustrato necesitas o cuándo sembrar. Herramientas interactivas para huerteros.",
+            "argentina": "Calculadora de macetas y fechas de siembra ajustadas a tu provincia. Optimizá tus recursos."
+          },
+          "keywords": ["calculadora sustrato", "cuanto compost necesito", "planificador huerta", "widget siembra"],
+          "headings": ["Calculadora de Mezcla de Sustrato", "Estimador de Compostaje", "Planificador de Cultivos"]
+        }
+      },
+      {
+        "page": "Blog",
+        "slug": "/blog",
+        "seo": {
+          "title": {
+            "generic": "Blog de Huerta y Jardinería Orgánica",
+            "argentina": "Novedades y Consejos de Huerta Argentina - Blog"
+          },
+          "description": {
+            "generic": "Artículos, guías y consejos semanales para mejorar tu huerta. Experiencias reales y trucos.",
+            "argentina": "Historias de huerteros locales, recetas de temporada y noticias del mundo agroecológico argentino."
+          },
+          "keywords": ["blog jardineria", "comunidad huertera", "tips huerta", "noticias agroecologia"],
+          "headings": ["Últimos artículos", "Guías paso a paso", "Recetas de la huerta a la mesa"]
+        }
+      }
+    ]
+  }
+}

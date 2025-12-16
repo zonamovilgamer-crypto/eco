@@ -1,0 +1,91 @@
+{
+    "q1_plan": [
+        {
+            "mes": "Mes 1: Fundamentos",
+            "piezas": [
+                {
+                    "titulo": "Ubicación de la Huerta: ¿Sol o Sombra?",
+                    "formato": "Blog Post",
+                    "kw": "orientacion huerta, sol para hortalizas",
+                    "brief": "Explicar cómo mapear el sol en el hogar antes de poner macetas."
+                },
+                {
+                    "titulo": "Preparando el mejor sustrato casero",
+                    "formato": "Video Reel",
+                    "kw": "tierra preparada, sustrato maceta",
+                    "brief": "Demostración visual de la mezcla 1:1:1 (Turba, Perlita, Humus)."
+                },
+                {
+                    "titulo": "Guía de Siembra: Almácigo vs Directa",
+                    "formato": "Blog Post",
+                    "kw": "siembra directa, trasplante plantines",
+                    "brief": "Tabla comparativa de qué especies van a semillero y cuáles a tierra derecho."
+                },
+                {
+                    "titulo": "Riego: Ni mucho ni poco",
+                    "formato": "Video TikTok",
+                    "kw": "frecuencia riego huerta",
+                    "brief": "Truco del dedo o palito para chequear humedad."
+                }
+            ]
+        },
+        {
+            "mes": "Mes 2: Cuidado y Crecimiento",
+            "piezas": [
+                {
+                    "titulo": "Identificando amigos y enemigos",
+                    "formato": "Blog Post",
+                    "kw": "plagas huerta, insectos beneficos",
+                    "brief": "Fotos de vaquitas, abejas (buenos) vs pulgones, hormigas (malos)."
+                },
+                {
+                    "titulo": "Receta: Purín de Ortiga",
+                    "formato": "Video Reel",
+                    "kw": "purin ortiga, fertilizante nitrogeno",
+                    "brief": "Paso a paso de la fermentación y dilución."
+                },
+                {
+                    "titulo": "El arte de trasplantar",
+                    "formato": "Video TikTok",
+                    "kw": "cuando trasplantar tomate",
+                    "brief": "Cómo sacar el plantín del vaso sin romper raíces."
+                },
+                {
+                    "titulo": "Mulching o Acolchado: ¿Por qué usarlo?",
+                    "formato": "Blog Post",
+                    "kw": "mulching organico, cobertura suelo",
+                    "brief": "Beneficios de cubrir el suelo con paja o pasto seco en verano."
+                }
+            ]
+        },
+        {
+            "mes": "Mes 3: Cosecha y Semillas",
+            "piezas": [
+                {
+                    "titulo": "Cosechando: El punto justo",
+                    "formato": "Blog Post",
+                    "kw": "cuando cosechar zapallo",
+                    "brief": "Guía visual de madurez para tomate, pimiento y hoja."
+                },
+                {
+                    "titulo": "Cómo guardar tus propias semillas",
+                    "formato": "Guía PDF",
+                    "kw": "banco semillas casero",
+                    "brief": "Extracción, secado y guardado de semillas de tomate y lechuga."
+                },
+                {
+                    "titulo": "Rotación de cultivos fácil",
+                    "formato": "Infografía/Post",
+                    "kw": "rotacion cultivos huerta",
+                    "brief": "Qué poner donde hubo tomates (ej. poner leguminosas)."
+                },
+                {
+                    "titulo": "Planificando la próxima temporada",
+                    "formato": "Video Reel",
+                    "kw": "huerta otoño invierno",
+                    "brief": "Adelanto de lo que se viene para el cambio de estación."
+                }
+            ]
+        }
+    ]
+}

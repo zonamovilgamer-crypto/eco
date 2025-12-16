@@ -1,0 +1,37 @@
+{
+    "project": "Plataforma Huerta Orgánica Argentina",
+    "version": "1.0.0",
+    "files": [
+        "sitemap.json",
+        "data/germinacion.csv",
+        "data/recetas.json",
+        "content/post-vermicompost.md"
+    ],
+    "sources": [
+        {
+            "name": "INTA",
+            "url": "https://inta.gob.ar",
+            "reason": "Fuente oficial de datos agronómicos en Argentina."
+        },
+        {
+            "name": "ProHuerta",
+            "url": "https://inta.gob.ar/prohuerta",
+            "reason": "Referencia principal para huerta familiar y comunitaria."
+        },
+        {
+            "name": "InfoAgro",
+            "url": "https://www.infoagro.com/argentina/",
+            "reason": "Fichas técnicas de cultivos extensivos e intensivos."
+        },
+        {
+            "name": "FAO",
+            "url": "https://www.fao.org/home/es",
+            "reason": "Estándares internacionales de germinación y manejo."
+        },
+        {
+            "name": "UNLP Extension",
+            "url": "https://unlp.edu.ar/",
+            "reason": "Investigación académica sobre compostaje y sustratos."
+        }
+    ]
+}

@@ -1,0 +1,102 @@
+{
+    "image_prompts": [
+        {
+            "id": "img_01",
+            "desc": "Primer plano de manos sosteniendo tierra negra fértil con una lombriz visible. Iluminación natural de atardecer. Estilo fotografía macro de alta resolución.",
+            "params": "--ar 16:9 --v 5.2"
+        },
+        {
+            "id": "img_02",
+            "desc": "Balcón moderno en Buenos Aires con huerta vertical en cajones de madera. Fondo urbano desenfocado. Luz suave de mañana.",
+            "params": "--ar 16:9 --style raw"
+        },
+        {
+            "id": "img_03",
+            "desc": "Corte transversal de una compostera casera mostrando capas de residuos orgánicos, hojas secas y tierra. Estilo infografía 3D realista.",
+            "params": "--ar 4:3"
+        },
+        {
+            "id": "img_04",
+            "desc": "Bodegón de hortalizas recién cosechadas (acelga, tomates, zanahorias con tierra). Estilo rústico, sobre mesa de madera.",
+            "params": "--ar 1:1"
+        },
+        {
+            "id": "img_05",
+            "desc": "Plántula de tomate emergiendo de la tierra, con gotas de rocío. Fondo verde bokeh.",
+            "params": "--ar 16:9"
+        },
+        {
+            "id": "img_06",
+            "desc": "Kit de semillas con packaging ecológico de papel kraft sobre mesa de trabajo de jardinería.",
+            "params": "--ar 1:1"
+        },
+        {
+            "id": "img_07",
+            "desc": "Diferentes tipos de sustratos en frascos de vidrio (perlita, vermiculita, turba, compost). Etiquetados a mano.",
+            "params": "--ar 16:9"
+        },
+        {
+            "id": "img_08",
+            "desc": "Niño regando plantines con regadera pequeña de metal. Enfoque en la acción del agua.",
+            "params": "--ar 4:5"
+        },
+        {
+            "id": "img_09",
+            "desc": "Hojas de acelga con mariquita (vaquita de San Antonio). Detalle de control biológico.",
+            "params": "--ar 1:1"
+        },
+        {
+            "id": "img_10",
+            "desc": "Calendario de siembra ilustrado con íconos de hortalizas por mes. Estilo flat design limpio.",
+            "params": "--ar 3:4"
+        },
+        {
+            "id": "img_11",
+            "desc": "Remedio casero en pulverizador ámbar junto a cabeza de ajo y chiles. Luz dramática de cocina.",
+            "params": "--ar 16:9"
+        },
+        {
+            "id": "img_12",
+            "desc": "Huerta en terraza al atardecer con guirnaldas de luces encendidas. Ambiente acogedor.",
+            "params": "--ar 16:9"
+        }
+    ],
+    "video_scripts": [
+        {
+            "id": "vid_01",
+            "title": "3 Errores al Sembrar",
+            "format": "Reel 9:16",
+            "scenes": "1. Intro rápida (No hagas esto). 2. Error 1: Sembrar muy profundo (Mostrar semilla ahogada). 3. Error 2: Apretar mucho la tierra. 4. Error 3: Olvidar regar. 5. Cierre con CTA."
+        },
+        {
+            "id": "vid_02",
+            "title": "Receta Insecticida Ajo",
+            "format": "TikTok 9:16",
+            "scenes": "1. Ingredientes en mesa (ASMR ruidos). 2. Corte rápido de ajo. 3. Mezcla con alcohol. 4. Resultado final en spray. 5. Aplicación en planta."
+        },
+        {
+            "id": "vid_03",
+            "title": "Compost vs Vermicompost",
+            "format": "Short 9:16",
+            "scenes": "1. Pantalla dividida. Izq: Montaña compost. Der: Cajones con lombrices. 2. Texto: Tiempo (6 meses vs 3 meses). 3. Texto: Nutrientes (1x vs 10x). 4. Conclusión."
+        },
+        {
+            "id": "vid_04",
+            "title": "Cosecha de Lechuga Infinita",
+            "format": "Reel 9:16",
+            "scenes": "1. Lechuga lista. 2. Mostrar corte de hojas externas (no arrancar planta). 3. Timelapse falso de rebrote. 4. Plato de ensalada."
+        },
+        {
+            "id": "vid_05",
+            "title": "Tutorado de Tomate",
+            "format": "Reel 9:16",
+            "scenes": "1. Planta tomate caída. 2. Colocación de caña. 3. Atado con tira de tela (no alambre). 4. Poda de chupones axilares."
+        },
+        {
+            "id": "vid_06",
+            "title": "Prueba del Puño (Humedad)",
+            "format": "TikTok 9:16",
+            "scenes": "1. Agarre tierra con la mano. 2. Apretar. 3. Si chorrea = mucha agua. 4. Si se desmorona = seco. 5. Si forma terrón = perfecto."
+        }
+    ]
+}
