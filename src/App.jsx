@@ -112,7 +112,7 @@ const InspirationGallery = () => (
             </div>
 
             <div className="gallery-grid">
-                <img src="https://images.unsplash.com/photo-1581578017093-cd30fba4e9d5?auto=format&fit=crop&q=80&w=600" className="gallery-img" alt="Compost casero saludable" />
+                <img src="https://images.unsplash.com/photo-1588615419955-46f04909874e?auto=format&fit=crop&q=80&w=600" className="gallery-img" alt="Compost casero saludable" />
                 <img src="https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?auto=format&fit=crop&q=80&w=600" className="gallery-img" alt="Plantas en macetas" />
                 <img src="https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&q=80&w=600" className="gallery-img" alt="Herramientas de jardin" />
                 <img src="https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?auto=format&fit=crop&q=80&w=600" className="gallery-img" alt="Plantines creciendo" />
