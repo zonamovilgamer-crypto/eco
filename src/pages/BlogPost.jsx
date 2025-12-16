@@ -101,13 +101,13 @@ const BlogPost = () => {
                 <meta name="keywords" content={meta.keywords || 'huerta organica, argentina'} />
 
                 {/* Canonical URL */}
-                <link rel="canonical" href={`https://tuhuertita.ar/blog/${slug}`} />
+                <link rel="canonical" href={`https://tuhuertitaorg.vercel.app/blog/${slug}`} />
 
                 {/* Open Graph */}
                 <meta property="og:title" content={meta.title || 'Tu Huertita'} />
                 <meta property="og:description" content={meta.description || ''} />
                 <meta property="og:type" content="article" />
-                <meta property="og:url" content={`https://tuhuertita.ar/blog/${slug}`} />
+                <meta property="og:url" content={`https://tuhuertitaorg.vercel.app/blog/${slug}`} />
 
                 {/* Twitter Card */}
                 <meta name="twitter:card" content="summary_large_image" />
@@ -130,14 +130,14 @@ const BlogPost = () => {
                             "name": "Tu Huertita",
                             "logo": {
                                 "@type": "ImageObject",
-                                "url": "https://tuhuertita.ar/vite.svg"
+                                "url": "https://tuhuertitaorg.vercel.app/vite.svg"
                             }
                         },
                         "datePublished": meta.date || "2025-01-15",
                         "dateModified": meta.date || "2025-01-15",
                         "mainEntityOfPage": {
                             "@type": "WebPage",
-                            "@id": `https://tuhuertita.ar/blog/${slug}`
+                            "@id": `https://tuhuertitaorg.vercel.app/blog/${slug}`
                         },
                         "articleSection": meta.cat || "Huerta Orgánica",
                         "keywords": meta.keywords || "huerta organica"
