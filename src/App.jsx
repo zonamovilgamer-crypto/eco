@@ -13,6 +13,7 @@ const Home = () => (
         <Hero />
         <InspirationGallery />
         <Features />
+        <BlogSection />
         <GerminationTable />
     </>
 );
@@ -224,6 +225,111 @@ const GerminationTable = () => {
     );
 };
 
+const BlogSection = () => {
+    const blogPosts = [
+        {
+            slug: 'vermicompost',
+            title: 'Vermicompost Casero en 6 Pasos',
+            excerpt: 'Aprendé a hacer humus de lombriz en casa con tus residuos orgánicos.',
+            category: 'Fertilizantes',
+            readTime: '15 min',
+            image: 'https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&q=80&w=400'
+        },
+        {
+            slug: 'huerta-balcon',
+            title: 'Huerta en Balcón para Espacios Pequeños',
+            excerpt: 'Transformá tu balcón en una huerta productiva con esta guía completa.',
+            category: 'Huerta Urbana',
+            readTime: '20 min',
+            image: 'https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?auto=format&fit=crop&q=80&w=400'
+        },
+        {
+            slug: 'compost-departamento',
+            title: 'Compostaje en Departamento Sin Olores',
+            excerpt: 'Métodos comprobados para compostar en espacios pequeños: bokashi y vermicompost.',
+            category: 'Sustentabilidad',
+            readTime: '18 min',
+            image: 'https://images.unsplash.com/photo-1588615419955-46f04909874e?auto=format&fit=crop&q=80&w=400'
+        },
+        {
+            slug: 'banco-semillas',
+            title: 'Banco de Semillas Casero',
+            excerpt: 'Guarda y multiplica tus variedades. Nunca más compres semillas.',
+            category: 'Autosuficiencia',
+            readTime: '17 min',
+            image: 'https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?auto=format&fit=crop&q=80&w=400'
+        }
+    ];
+
+    return (
+        <section className="section-padding" style={{ background: '#fff' }}>
+            <div className="container">
+                <div className="text-center" style={{ maxWidth: '700px', margin: '0 auto 60px auto' }}>
+                    <h2>Blog de la Huerta</h2>
+                    <p style={{ fontSize: '1.2rem' }}>Guías prácticas y consejos para tu huerta orgánica</p>
+                </div>
+
+                <div className="grid grid-2" style={{ gap: '2rem' }}>
+                    {blogPosts.map((post, idx) => (
+                        <Link
+                            key={idx}
+                            to={`/blog/${post.slug}`}
+                            className="card"
+                            style={{
+                                textDecoration: 'none',
+                                color: 'inherit',
+                                transition: 'transform 0.3s ease, box-shadow 0.3s ease',
+                                cursor: 'pointer'
+                            }}
+                            onMouseEnter={(e) => {
+                                e.currentTarget.style.transform = 'translateY(-5px)';
+                                e.currentTarget.style.boxShadow = '0 15px 40px -10px rgba(0,0,0,0.2)';
+                            }}
+                            onMouseLeave={(e) => {
+                                e.currentTarget.style.transform = 'translateY(0)';
+                                e.currentTarget.style.boxShadow = '';
+                            }}
+                        >
+                            <img
+                                src={post.image}
+                                alt={post.title}
+                                style={{
+                                    width: '100%',
+                                    height: '200px',
+                                    objectFit: 'cover',
+                                    borderRadius: '12px 12px 0 0',
+                                    marginBottom: '1.5rem'
+                                }}
+                            />
+                            <div style={{ padding: '0 1.5rem 1.5rem' }}>
+                                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
+                                    <span style={{
+                                        background: '#e6f0eb',
+                                        color: 'var(--color-primary)',
+                                        padding: '4px 12px',
+                                        borderRadius: '20px',
+                                        fontSize: '0.75rem',
+                                        fontWeight: '700',
+                                        textTransform: 'uppercase'
+                                    }}>
+                                        {post.category}
+                                    </span>
+                                    <span style={{ fontSize: '0.85rem', color: '#888' }}>{post.readTime}</span>
+                                </div>
+                                <h3 style={{ fontSize: '1.4rem', marginBottom: '0.75rem', lineHeight: '1.3' }}>{post.title}</h3>
+                                <p style={{ color: '#666', fontSize: '0.95rem', lineHeight: '1.6' }}>{post.excerpt}</p>
+                                <div style={{ marginTop: '1rem', display: 'inline-flex', alignItems: 'center', gap: '5px', color: 'var(--color-primary)', fontWeight: '600' }}>
+                                    Leer más <ArrowRight size={16} />
+                                </div>
+                            </div>
+                        </Link>
+                    ))}
+                </div>
+            </div>
+        </section>
+    );
+};
+
 const Features = () => (
     <section className="section-padding">
         <div className="container">
@@ -323,7 +429,7 @@ function App() {
                 <Route path="/recetas" element={<RecipesPage />} />
                 <Route path="/calendario" element={<CalendarPage />} />
                 <Route path="/calculadora" element={<SubstrateCalculator />} />
-                <Route path="/blog/vermicompost" element={<BlogPost />} />
+                <Route path="/blog/:slug" element={<BlogPost />} />
             </Routes>
             <Footer />
         </Router>
