@@ -64,7 +64,7 @@
             "preparacion": "Tamizar la tierra si tiene cascotes. Mezclar con el compost y añadir la perlita al final para dar aireación.",
             "costo_estimado_ars": 500,
             "notas": "Retiene humedad pero drena bien. Agregar un puñado de humus si es para tomates o morrones.",
-            "video_id": "OSdqNMpnHgD"
+            "video_id": "mrZCo1XaPfM"
         },
         {
             "nombre": "Recuperación de Suelo Seco/Arcilloso",
@@ -97,7 +97,7 @@
             "preparacion": "Puntear el suelo a 30cm sin invertir las capas. Incorporar arena y materia orgánica. Cubrir SIEMPRE con mulching (paja/hojas).",
             "costo_estimado_ars": 200,
             "notas": "La clave es el mulching para retener la poca humedad y activar la microbiología.",
-            "video_id": "OSdqNMpnHgD",
+            "video_id": "mrZCo1XaPfM",
             "insumos_ml": [
                 {
                     "item": "Arena de río 25kg",
@@ -141,7 +141,7 @@
             "preparacion": "Pasteurizar la paja en agua con cal (o hervir) por 1-2 horas. Escurrir bien. Mezclar con micelio en bolsas negras agujereadas. Incubar a oscuras 20 días.",
             "costo_estimado_ars": 4500,
             "notas": "Requiere higiene extrema. Mantener humedad alta 80-90% una vez que fructifica.",
-            "video_id": "efSEqpRh2NU",
+            "video_id": "3QFAW__JLLg",
             "insumos_ml": [
                 {
                     "item": "Micelio Gírgolas",
@@ -163,7 +163,7 @@
             "dosis": "Diluir 1 parte de purín en 10 partes de agua para riego.",
             "aplicacion": "Riego cada 15 días en etapa de crecimiento (hojas). Aporta mucho Nitrógeno.",
             "seguridad": "Huele muy fuerte (podrido). Usar guantes para recolectar ortiga.",
-            "video_id": "EQO1EFP_r3T"
+            "video_id": "sqRj7TXO9AI"
         },
         {
             "nombre": "Té de Banana (Potasio)",
@@ -176,7 +176,7 @@
             "dosis": "Diluir 1 parte de té en 2 partes de agua.",
             "aplicacion": "Riego cuando la planta empieza a sacar flores (tomate, pimiento, berenjena).",
             "seguridad": "Inocuo. Atrae mosquitas si se deja azúcar, no endulzar.",
-            "video_id": "O2vhqh7JdWI"
+            "video_id": "sqRj7TXO9AI"
         },
         {
             "nombre": "Bocashi (Abono Fermentado)",
@@ -190,7 +190,7 @@
             "dosis": "Un puñado por maceta o incorporar en canteros.",
             "aplicacion": "Aporta vida microbiana explosiva. Usar 15 días después de preparar.",
             "seguridad": "Levanta temperatura (50°C+). No usar fresco en raíces.",
-            "video_id": "07qHBtEAGC0"
+            "video_id": "gzQB2RvHhOs"
         }
     ],
     "guias_tecnicas": [
@@ -208,7 +208,7 @@
                 "3. Llenar con sutrato liviano y sembrar.",
                 "4. Al trasplantar, enterrar el rollo entero (se degrada y no daña raíces)."
             ],
-            "video_id": "IkYCdtZO3Gy"
+            "video_id": "vJQo4KXmGSM"
         },
         {
             "titulo": "Uso del Cartón (Lasagna/Mulch)",
@@ -225,7 +225,7 @@
                 "4. Cubrir con 10cm de sustrato/compost. Sembrar arriba.",
                 "Beneficio: Evita yuyos, retiene agua, atrae lombrices."
             ],
-            "video_id": "GfbCMQTC6uH"
+            "video_id": "z6fkRSUZxFE"
         },
         {
             "titulo": "Diagnóstico Rápido: Hojas",
@@ -240,7 +240,7 @@
                 "Manchas Polvo Blanco: Oidio (Hongo). Usar Fungicida de Leche/Bicarbonato.",
                 "Hojas enrolladas/pegajosas: Pulgón o Mosca Blanca. Mirar revés de hoja."
             ],
-            "video_id": "EQO1EFP_r3T"
+            "video_id": "LPjHLBH83aE"
         },
         {
             "titulo": "Cultivo de Frutillas en Maceta",
