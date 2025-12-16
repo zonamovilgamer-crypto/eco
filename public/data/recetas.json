@@ -191,6 +191,102 @@
             "aplicacion": "Aporta vida microbiana explosiva. Usar 15 días después de preparar.",
             "seguridad": "Levanta temperatura (50°C+). No usar fresco en raíces.",
             "video_id": "gzQB2RvHhOs"
+        },
+        {
+            "nombre": "Té de Compost (Fertilizante Completo)",
+            "tipo": "Fertilizante líquido con microorganismos",
+            "ingredientes": [
+                "1 parte de compost maduro",
+                "5 partes de agua sin cloro",
+                "1 cucharada de melaza (opcional)"
+            ],
+            "preparacion": "Poner el compost en una bolsa de tela y sumergir en agua. Airear removiendo 2 veces al día. Listo en 24-48 horas cuando huele a tierra.",
+            "dosis": "Diluir 1:3 con agua antes de aplicar.",
+            "aplicacion": "Riego o pulverización foliar cada 15 días. Aporta nutrientes y microorganismos beneficiosos.",
+            "seguridad": "Usar rápido (máximo 72hs). No debe oler mal, si huele a podrido descartarlo.",
+            "video_id": "mrZCo1XaPfM"
+        },
+        {
+            "nombre": "Fertilizante de Cebolla (Antifúngico)",
+            "tipo": "Fertilizante y fungicida natural",
+            "ingredientes": [
+                "Cáscaras de 5-6 cebollas",
+                "1 litro de agua"
+            ],
+            "preparacion": "Macerar las cáscaras en agua por 24 horas. Colar y está listo para usar.",
+            "dosis": "Usar puro o diluir 1:1 con agua.",
+            "aplicacion": "Riego cada 10 días. Rico en calcio, magnesio, potasio y hierro. Combate hongos y bacterias en raíces.",
+            "seguridad": "Completamente seguro. Puede guardarse en heladera 1 semana.",
+            "video_id": "3QFAW__JLLg"
+        },
+        {
+            "nombre": "Fertilizante de Yogur Natural",
+            "tipo": "Abono rico en calcio y probióticos",
+            "ingredientes": [
+                "1 taza de yogur natural (puede estar vencido)",
+                "2 litros de agua"
+            ],
+            "preparacion": "Mezclar el yogur con agua hasta disolver completamente.",
+            "dosis": "Aplicar directo sin diluir adicional.",
+            "aplicacion": "Riego cada 15-20 días. Ideal para tomates, frutales y plantas de interior. Aporta calcio, potasio, magnesio y vitaminas B.",
+            "seguridad": "No usar yogures con sabor o azúcar. Solo natural.",
+            "video_id": "sqRj7TXO9AI"
+        }
+    ],
+    "recetas_remedios": [
+        {
+            "nombre": "Jabón Potásico (Anti-Pulgón)",
+            "tipo": "Insecticida de contacto",
+            "ingredientes": [
+                "20g de jabón blanco neutro rallado",
+                "1 litro de agua tibia"
+            ],
+            "preparacion": "Disolver el jabón en agua tibia removiendo bien. Dejar enfriar y pasar a pulverizador.",
+            "dosis": "Usar puro sobre las zonas afectadas.",
+            "aplicacion": "Pulverizar al atardecer sobre pulgones, cochinilla y mosca blanca. Repetir cada 3 días hasta eliminar plaga.",
+            "seguridad": "No aplicar con sol directo (quema hojas). Enjuagar plantas comestibles antes de cosechar.",
+            "video_id": "vJQo4KXmGSM"
+        },
+        {
+            "nombre": "Insecticida de Ajo y Ají",
+            "tipo": "Repelente e insecticida potente",
+            "ingredientes": [
+                "1 cabeza de ajo",
+                "2-3 ajíes picantes",
+                "1 litro de agua",
+                "1 cucharadita de jabón blanco"
+            ],
+            "preparacion": "Triturar ajo y ají. Macerar en agua por 24 horas. Colar, agregar jabón y mezclar.",
+            "dosis": "Diluir 1:3 con agua para aplicar.",
+            "aplicacion": "Pulverizar sobre plantas afectadas por pulgón, mosca blanca, ácaros y orugas. Repetir cada 5-7 días.",
+            "seguridad": "Usar guantes al preparar. No inhalar vapores. Muy picante, lavar manos después.",
+            "video_id": "z6fkRSUZxFE"
+        },
+        {
+            "nombre": "Fungicida de Leche",
+            "tipo": "Preventivo contra hongos",
+            "ingredientes": [
+                "1 parte de leche (puede ser descremada)",
+                "9 partes de agua"
+            ],
+            "preparacion": "Mezclar leche con agua en proporción 1:9.",
+            "dosis": "Usar la mezcla directamente.",
+            "aplicacion": "Pulverizar sobre hojas cada 7 días como preventivo de oidio (hongo blanco). Aplicar en días nublados o al atardecer.",
+            "seguridad": "Completamente seguro. Puede atraer hormigas si se aplica en exceso.",
+            "video_id": "LPjHLBH83aE"
+        },
+        {
+            "nombre": "Repelente de Laurel",
+            "tipo": "Insecticida aromático",
+            "ingredientes": [
+                "30 hojas de laurel frescas",
+                "1 litro de agua"
+            ],
+            "preparacion": "Hervir las hojas de laurel en agua por 10 minutos. Dejar reposar 24 horas. Colar.",
+            "dosis": "Usar puro si la plaga es severa, o diluir 1:1 para prevención.",
+            "aplicacion": "Pulverizar sobre plantas afectadas por pulgones, moscas y mosquitas. Repetir cada 5 días.",
+            "seguridad": "Seguro para plantas comestibles. Olor fuerte pero agradable.",
+            "video_id": "gzQB2RvHhOs"
         }
     ],
     "guias_tecnicas": [
@@ -273,93 +369,6 @@
                 "4. Riego: En maceta la tierra se seca más rápido, revisar diariamente."
             ],
             "video_id": "sqRj7TXO9AI"
-        }
-    ],
-    "recetas_remedios": [
-        {
-            "nombre": "Apichi (Insecticida de Ajo, Pimienta y Chile)",
-            "tipo": "Repelente Potente",
-            "ingredientes": [
-                "500g de Ajo",
-                "250g de Chile picante (Ají)",
-                "250g de Pimienta en grano",
-                "500ml de Alcohol etílico"
-            ],
-            "preparacion": "Moler todo y dejar macerar en alcohol por 7 días. Diluir para usar.",
-            "dosis": "5ml (una tapita) por litro de agua.",
-            "aplicacion": "Pulverizar cada 15 días como preventivo.",
-            "seguridad": "Usar guantes y gafas (irrita ojos). No aplicar en floración. Evitar horas de sol fuerte.",
-            "compatibilidad": "Tóxico para abejas por contacto directo, aplicar al atardecer.",
-            "video_id": "gzQB2RvHhOs",
-            "insumos_ml": [
-                {
-                    "item": "Alcohol etílico 1L",
-                    "price_avg": 1500,
-                    "link_search": "https://listado.mercadolibre.com.ar/alcohol-etilico-1l"
-                },
-                {
-                    "item": "Pulverizador 5L",
-                    "price_avg": 12000,
-                    "link_search": "https://listado.mercadolibre.com.ar/pulverizador-presion-previa"
-                }
-            ]
-        },
-        {
-            "nombre": "Infusión de Ajo Básico",
-            "tipo": "Repelente Suave",
-            "ingredientes": [
-                "5 dientes de ajo",
-                "1 litro de agua"
-            ],
-            "preparacion": "Machacar los ajos, dejar reposar en agua 24hs o hervir 20 min. Colar antes de usar.",
-            "dosis": "Usar puro o diluido al 50%.",
-            "aplicacion": "Rociar sobre hojas afectadas por pulgón, 3 días seguidos.",
-            "seguridad": "Seguro. No aplicar bajo sol directo.",
-            "compatibilidad": "Poco efecto sobre benéficos si se aplica seco.",
-            "video_id": "vJQo4KXmGSM",
-            "insumos_ml": [
-                {
-                    "item": "Ajo 1kg",
-                    "price_avg": 1000,
-                    "link_search": "https://listado.mercadolibre.com.ar/ajo-1kg"
-                }
-            ]
-        },
-        {
-            "nombre": "Jabón Potásico Casero",
-            "tipo": "Insecticida de Contacto",
-            "ingredientes": [
-                "20g de Jabón blanco neutro",
-                "1 litro de agua caliente"
-            ],
-            "preparacion": "Rallar el jabón y disolver en agua caliente. Dejar enfriar.",
-            "dosis": "No necesita dilución extra si se hizo al 2%.",
-            "aplicacion": "Mojar bien al insecto (pulgón, cochinilla, mosca blanca).",
-            "seguridad": "Muy seguro. Evitar ojos.",
-            "compatibilidad": "No tiene efecto residual.",
-            "video_id": "z6fkRSUZxFE",
-            "insumos_ml": [
-                {
-                    "item": "Jabón Potásico Líquido",
-                    "price_avg": 4000,
-                    "link_search": "https://listado.mercadolibre.com.ar/jabon-potasico-huerta"
-                }
-            ]
-        },
-        {
-            "nombre": "Fungicida de Leche",
-            "tipo": "Fungicida preventivo",
-            "ingredientes": [
-                "200ml de leche descremada",
-                "800ml de agua",
-                "20g de Bicarbonato de sodio (opcional)"
-            ],
-            "preparacion": "Mezclar la leche con el agua.",
-            "dosis": "1 parte de mezcla final.",
-            "aplicacion": "Pulverizar hojas cada 7-10 días para prevenir oidio y mildiu.",
-            "seguridad": "Totalmente inocuo.",
-            "compatibilidad": "Seguro.",
-            "video_id": "LPjHLBH83aE"
         }
     ]
 }
